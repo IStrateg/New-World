@@ -11,7 +11,9 @@ import ru.strateg.newworld.common.CommonProxy;
 public class ClientProxy extends CommonProxy {
 
     public void preInit(FMLPreInitializationEvent event)
-    {}
+    {
+        super.preInit(event);
+    }
 
     public void init(FMLInitializationEvent event)
     {}
